@@ -1,0 +1,58 @@
+body {
+  font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+}
+
+.figure {
+  margin: 40px 0 0;
+}
+
+.figure img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+#errorbox {
+  line-height: 1.6em;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+#errorbox .not-found h1 {
+  color: rgba(0,0,0,0.75);
+    font-size: 38px;
+    font-weight: lighter;
+    line-height: 47px;
+}
+
+#errorbox .not-found {
+  color: rgba(0,0,0,0.75);
+  font-size: 21px;
+  font-weight: lighter;
+  line-height: 36px;
+}
+
+#errorbox .not-found--links {
+  margin: 48px 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+#errorbox .not-found--links ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#errorbox .not-found--links ul li {
+  margin-top: 10px;
+}
+
+#errorbox a {
+  color: #005ff8;
+  text-decoration: none;
+}
