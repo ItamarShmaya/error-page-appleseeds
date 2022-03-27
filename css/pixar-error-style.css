@@ -69,8 +69,11 @@ main img {
 }
 
 .message-text {
-  float: right;
-  padding-top: 140px;
+  /* float: right;
+  padding-top: 140px; */
+  position: absolute;
+  top: 330px;
+  right: 150px;
 }
 
 .message-text h1 {
